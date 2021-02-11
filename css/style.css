@@ -8,8 +8,8 @@
 [class*="col-"]{
    min-height: 80px;
   /* debug  */
-   border: 1px solid black;
-   background-color: red;
+    /* border: 1px solid black; */
+   /* background-color: red; */
 
 }
 
@@ -43,4 +43,88 @@
   font-size: 18px;
   line-height: 20px;
   margin-right: 70px;
+}
+
+/* background-color navbar a 768px */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+/* border navbar a 768px */
+.navbar-default .navbar-toggle{
+  border: 0;
+}
+
+/* color line navbar */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:  #3285FF;
+}
+
+
+/* Jumbotron */
+.contenitore-jumbotron{
+  min-height: 300px;
+  background-color:#004AFF;
+  background-image: url(../img/jumbo.svg);
+}
+
+/* text-left-jumbotron */
+.text-left-jumbotron{
+  margin: 60px 0;
+
+}
+
+.text-left-jumbotron h1{
+  font-size: 50px;
+  margin-bottom: 30px;
+
+}
+
+.design>p, .design>h1{
+  color: white;
+  font-weight: bold;
+
+}
+
+
+/* text-right-jumbotron */
+.text-right-jumbotron{
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  /* debug */
+  min-height: 50px;
+}
+
+.text-right-jumbotron h1{
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 30px;
+
+}
+
+.text-right-jumbotron h2{
+  color: #006AFF;
+  font-weight: bold;
+}
+
+.text-right-jumbotron p{
+  margin:10px;
+  padding-bottom: 10px;
+}
+
+.padding-button-jumbotron{
+  padding: 0 30px;
+}
+
+button img{
+  width: 30px;
+}
+
+/* color scritta button "Sign up.."  */
+.btn-default {
+  color: #CCCCCC;
+  border-color: #CCCCCC;
 }
