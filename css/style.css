@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+[class*="col-"]{
+   min-height: 80px;
+  /* debug  */
+   border: 1px solid black;
+   background-color: red;
+
+}
+
+/* header  */
+.navbar-default{
+  background-color: white;
+  border: 0;
+}
+.logo{
+  width: 150px;
+  line-height: normal;
+}
+
+/* color e background-color words navbar */
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+/* background e border Sign Up */
+.btn-default {
+  color: #3285FF;
+  background-color: #fff;
+  border-color: #3285FF;
+}
+
+/* padding logo */
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 9px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  margin-right: 70px;
+}
