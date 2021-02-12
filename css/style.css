@@ -8,8 +8,8 @@
 [class*="col-"]{
    min-height: 80px;
   /* debug  */
-    border: 1px solid black;
-  background-color: red;
+    /* border: 1px solid black;
+  background-color: red; */
 
 }
 
@@ -289,10 +289,41 @@ header .btn-default {
 
 }
 
+
 /* immagine che scorre */
 
 .img-undertitle-section3 img{
   display: block;
   margin: 0 auto;
   width: 75%;
+}
+
+.carousel-indicators li {
+  background-color: #006AFF;
+  border: 1px solid  #006AFF;
+}
+
+/* freccia per scorrimento sinistro */
+.glyphicon-chevron-left:before {
+  content: "\e079";
+  color: #6F7B97;
+}
+
+/* freccia per scorrimento destro */
+.glyphicon-chevron-right:before {
+  content: "\e080";
+  color: #6F7B97;
+
+}
+
+/* margine pallini scorrimento */
+.contenitore-section3 .img-undertitle-section3 ol {
+  /* margin-top: 0; */
+  margin-bottom: -110px;
+}
+
+ .contenitore-section3 h3{
+  text-align: center;
+  color: #031C4E;
+  font-weight: bold;
 }
