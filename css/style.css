@@ -8,8 +8,8 @@
 [class*="col-"]{
    min-height: 80px;
   /* debug  */
-   /* border: 1px solid black;
-  background-color: red;  */
+  /* border: 1px solid black;
+  background-color: red; */
 
 }
 
@@ -249,11 +249,13 @@ header .btn-default {
 
 /* text-under-section2 */
 .cluster-compute img{
-  display: block;
-  padding-top: 50px;
+  margin-top: 30px;
 
 }
 
+.click-global{
+  margin-top: 20px;
+}
 .text-under-section2 h3{
   color:#031C4E;
   font-weight: bold;
