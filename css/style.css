@@ -478,8 +478,9 @@ table tr:last-child{
 }
 
 /* button */
-.btn-primary {
+.btn-primary-2 {
   color: #0E72FF;
   background-color: white;
   font-weight: bold;
+  border: none;
 }
