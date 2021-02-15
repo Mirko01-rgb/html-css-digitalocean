@@ -194,7 +194,7 @@ header .btn-default {
 
 /* INIZIO MAIN */
 
-/* main-section1 */
+/* main section 1 "INNOVATIVE BUSINESSES"  */
 .contenitore-main-section1{
   background-color: #F3F5F9;
 }
@@ -225,7 +225,7 @@ header .btn-default {
 
 }
 
-/* main section2 */
+/* main section 2 "DEPLOY" */
 
 .text-title-section2{
   text-align: center;
@@ -285,7 +285,7 @@ header .btn-default {
 }
 
 
-/* main section3 */
+/* main section 3 "DESIGNED"*/
 
 .contenitore-section3{
   background-color: #F3F5F9;
@@ -355,7 +355,7 @@ header .btn-default {
 
 }
 
-/*  main section4 */
+/*  main section 4 "THE FEATURES" */
 .text-title-mainsection4 h1{
   text-align: center;
   color: #031C4E;
@@ -392,7 +392,7 @@ header .btn-default {
 }
 
 
-/* main section5 table */
+/* main section 5 "SERVICE TABLE" */
 
 .contenitore-mainsection5, .table{
   background-color: #0032AE;
@@ -438,7 +438,7 @@ table tr:last-child{
 }
 
 
-/* main section6 */
+/* main section 6 "DEVELOPMENT TEAMS" */
 .contenitore-mainsection6{
   background-color: #F3F5F9;
 
@@ -455,4 +455,31 @@ table tr:last-child{
   width: 80%;
   display: block;
   margin: 0 auto;
+}
+
+
+/*  main section 7 "CreateyourAccount" */
+.contenitore-mainsection7{
+  background-color: #0032AE;
+}
+
+.title-button h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+.title-button p{
+  text-align: center;
+  margin-bottom: 90px;
+
+}
+
+/* button */
+.btn-primary {
+  color: #0E72FF;
+  background-color: white;
+  font-weight: bold;
 }
