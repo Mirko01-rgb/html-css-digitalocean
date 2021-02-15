@@ -8,7 +8,7 @@
 [class*="col-"]{
    min-height: 80px;
   /* debug  */
-  /* border: 1px solid black;
+    /* border: 1px solid black;
   background-color: red; */
 
 }
@@ -54,6 +54,11 @@
 }
 
 /* header  */
+
+header{
+  background-color: white;
+}
+
 .navbar-default{
   background-color: white;
   border: 0;
@@ -176,9 +181,13 @@ header .btn-default {
 }
 
 /* color scritta button "Sign up.."  */
- .btn-default {
+.btn-default {
   color: #CCCCCC;
   border-color: #CCCCCC;
+}
+
+.text-right-jumbotron .terms-of-service{
+  text-align: center;
 }
 
 
@@ -207,6 +216,13 @@ header .btn-default {
   margin: 0 auto;
 }
 
+@media all and  (max-width: 320px) {
+  .hashicorp{
+    width: 100%;
+    padding-top: 6px;
+  }
+
+}
 
 /* main section2 */
 
@@ -294,7 +310,7 @@ header .btn-default {
 }
 
 
-/* immagine che scorre */
+/* Carousel*/
 
 .img-undertitle-section3 img{
   display: block;
@@ -323,14 +339,29 @@ header .btn-default {
 /* margine pallini scorrimento */
 .contenitore-section3 .img-undertitle-section3 ol {
   /* margin-top: 0; */
-  margin-bottom: -105px;
+ margin-bottom: -105px;
 
 }
 
+/* Version mobile */
+.carousel-indicators {
+ bottom: 0;
+}
+
+/* backgroundcolor freccia sinistra */
+.carousel-control.left{
+  background-image: linear-gradient(to right,#F3F5F9 0,rgba(0,0,0,.0001) 100%);
+}
+
+/* backgroundcolor freccia destra */
+.carousel-control.right{
+  background-image: linear-gradient(to left,#F3F5F9 0,rgba(0,0,0,.0001) 100%);
+}
 .contenitore-section3 h3{
   text-align: center;
   color: #031C4E;
   font-weight: bold;
+  margin-bottom: 90px;
 
 }
 
