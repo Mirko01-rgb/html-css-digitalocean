@@ -337,9 +337,6 @@ header .btn-default {
 
 }
 
-
-
-
 /* backgroundcolor freccia sinistra */
 .carousel-control.left{
   background-image: linear-gradient(to right,#F3F5F9 0,rgba(0,0,0,.0001) 100%);
@@ -397,8 +394,9 @@ header .btn-default {
 
 /* main section5 table */
 
-.title-mainsection5, .table{
+.contenitore-mainsection5, .table{
   background-color: #0032AE;
+  margin: 0;
 }
 
 .title-mainsection5 h1{
@@ -409,6 +407,7 @@ header .btn-default {
 
 table{
   margin-bottom: 50px;
+
 }
 
 .text-table{
@@ -436,4 +435,24 @@ table{
 table tr:last-child{
   border-bottom: none;
 
+}
+
+
+/* main section6 */
+.contenitore-mainsection6{
+  background-color: #F3F5F9;
+
+}
+
+.title-mainsection6 h1{
+  text-align: center;
+  font-weight: bold;
+  color: #0032AE;
+  margin: 90px 0;
+}
+
+.img-rockerbox img{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }
