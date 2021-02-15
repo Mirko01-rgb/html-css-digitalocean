@@ -60,17 +60,18 @@ header{
   background-color: white;
 }
 
-.navbar-default{
+/* background-color nav-bar */
+header .navbar-default{
   background-color: white;
   border: 0;
 
 }
 
-/* color nav-bar */
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+
+/* .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: #e7e7e7;
   background-color: white;
-}
+} */
 
 .logo{
   width: 150px;
@@ -78,7 +79,7 @@ header{
 }
 
 /* color e background-color words navbar */
-.navbar-default .navbar-nav>li>a {
+header .navbar-default .navbar-nav>li>a {
   color: black;
 }
 
@@ -90,7 +91,7 @@ header .btn-default {
 }
 
 /* padding logo */
-.navbar-brand {
+header .navbar-brand {
   float: left;
   height: 50px;
   padding: 9px 15px;
@@ -100,17 +101,17 @@ header .btn-default {
 }
 
 /* background-color navbar a 768px */
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+header .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: transparent;
 }
 
 /* border navbar a 768px */
-.navbar-default .navbar-toggle{
+header .navbar-default .navbar-toggle{
   border: 0;
 }
 
 /* color line navbar */
-.navbar-default .navbar-toggle .icon-bar {
+header .navbar-default .navbar-toggle .icon-bar {
   background-color:  #3285FF;
 }
 
