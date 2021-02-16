@@ -8,8 +8,8 @@
 [class*="col-"]{
    min-height: 80px;
   /* debug  */
-  /* border: 1px solid black;
-  /* background-color: red;  */
+  /* border: 1px solid black; */
+   /* background-color: red; */
 
 }
 
@@ -273,8 +273,12 @@ header .navbar-default .navbar-toggle .icon-bar {
 
 .click-global{
   margin-top: 20px;
+}
+
+.only-global{
   margin-bottom: 90px;
 }
+
 .text-under-section2 h3{
   color:#031C4E;
   font-weight: bold;
@@ -486,4 +490,53 @@ table tr:last-child{
   background-color: white;
   font-weight: bold;
   border: none;
+}
+
+
+/* footer */
+
+.contenitore-footer{
+  background-color: #031C4E;
+}
+
+.app{
+  margin-top: 50px;
+  color: #7F89A1;
+}
+
+.app img{
+  margin-bottom: 20px;
+}
+
+.made-ny{
+  color: #566584;
+}
+
+.listato-app li{
+ display: inline-block;
+ margin-left: 10px;
+}
+
+.listato-app .fab{
+  color: #7F89A1;
+}
+
+.listato-footer li{
+ list-style-type:none;
+}
+
+.listato-footer li a{
+  text-decoration: none;
+    color: #7F89A1;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 35px;
+}
+
+
+.listato-footer .first-child {
+ color: white;
+ font-size: 20px;
+ display: inline-block;
+ margin-top: 40px;
 }
